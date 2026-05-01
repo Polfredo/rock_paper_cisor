@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Cisor</title>
+
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <h1> Rock Paper Cisor</h1>
+    <div id="player_action">
+        <h2> Player </h2>
+        <button id="rock"> ✊ Rock </button>
+        <button id="paper"> ✋ Paper </button>
+        <button id="cisor"> ✌️ Cisor </button>
+    </div>
+
+    <div id="fight_display">
+        <p id="result">...</p>
+    </div>
+
+    <div id="score_board">
+        <h2> Score board</h2>
+        <ol>
+            <li id="Player"> 
+                <div>Player:</div>
+                <div id="score"> 0 </div>
+            </li>
+            <li id="Computer"> 
+                <div>Computer:</div>
+                <div id="score"> 0 </div>
+            </li>
+        </ol>
+    </div>
+
+    <!-- Game Over Pop-up -->
+    <div id="game-over-overlay">
+        <div id="game-over-box">
+            <h2 id="final-status">GAME OVER</h2>
+            <p id="final-score-display">PLAYER: 0 - COMP: 0</p>
+            <button id="restart-btn">RETRY?</button>
+        </div>
+    </div>
+
+</body>
+</html>
